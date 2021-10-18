@@ -10,18 +10,11 @@ repos:
     hooks:
       - id: black
         name: Paint It Black
-  - repo: https://github.com/Lucas-C/pre-commit-hooks-bandit
-    rev: v1.0.5
+  - repo: https://github.com/pycqa/flake8
+    rev: 4.0.1
     hooks:
-      - id: python-bandit-vulnerability-check
-        args: [-l, --recursive, -x, tests]
+      - id: flake8
+        name: Lint with Flake8
         files: .py$
-        stages: [push]
-  - repo: local
-    hooks:
-    -   id: Run pytest
-        name: run tests
-        entry: pytest -v
-        language: system
-        types: [python]
-        stages: [push]
+        args:
+          - --max-line-length=89
