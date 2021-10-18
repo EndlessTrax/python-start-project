@@ -1,0 +1,32 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.3.0
+    hooks:
+    - id: end-of-file-fixer
+    - id: trailing-whitespace
+  - repo: https://github.com/timothycrosley/isort
+    rev: 5.9.3
+    hooks:
+      - id: isort
+        name: Sort Import Statements
+        files: .py$
+  - repo: https://github.com/psf/black
+    rev: 21.9b0
+    hooks:
+      - id: black
+        name: Paint It Black
+  - repo: https://github.com/Lucas-C/pre-commit-hooks-bandit
+    rev: v1.0.5
+    hooks:
+      - id: python-bandit-vulnerability-check
+        args: [-l, --recursive, -x, tests]
+        files: .py$
+        stages: [push]
+  - repo: local
+    hooks:
+    -   id: Run pytest
+        name: run tests
+        entry: pytest -v
+        language: system
+        types: [python]
+        stages: [push]
