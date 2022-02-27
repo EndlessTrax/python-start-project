@@ -1,0 +1,8 @@
+pre-commit
+pip-tools
+pytest
+pytest-cov
+flit
+isort == 5.10.1
+black == 22.1.0
+flake8 == 4.0.1
