@@ -1,5 +1,5 @@
-from src.hello_world import __version__
+from src.hello_world.main import msg
 
 
 def test_version():
-    assert __version__ == "0.1.0"
+    assert msg == "Hello, World!"
