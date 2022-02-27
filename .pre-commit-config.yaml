@@ -1,12 +1,12 @@
 repos:
   - repo: https://github.com/timothycrosley/isort
-    rev: 5.9.3
+    rev: 5.10.1
     hooks:
       - id: isort
         name: Sort Import Statements
         files: .py$
   - repo: https://github.com/psf/black
-    rev: 21.9b0
+    rev: 22.1.0
     hooks:
       - id: black
         name: Paint It Black
