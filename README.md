@@ -2,7 +2,7 @@
 
 To use this template, click the green button at the top of the GitHib page that's cleverly called **"Use this template"**.
 
-This template currently uses Python 3.10. It also includes:
+This template currently uses Python 3.11. But test run on 3.8 and above. It also includes:
 
 - [pip-tools](https://pypi.org/project/pip-tools/) for dependency management.
 - [pytest](https://docs.pytest.org/en/6.2.x/) for testing
