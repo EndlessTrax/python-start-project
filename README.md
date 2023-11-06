@@ -21,10 +21,10 @@ To create a virtual environment and install all dependencies, run:
 > python -m pip install -r requirements.txt 
 ```
 
-That's it, you're all set to start coding your application!
+That's it; you're all set to start coding your application!
 
 ## Build and Release
 
 Use `flit build` to build a distribution file locally.
 
-To release a new version, tag the commit with `v*` and push to the remote. The Github action will automatically build and upload the distribution file. Be sure to set a `PYPI_API_TOKEN` environment variable with your PyPI API token to upload to PyPi before tagging a release version.
+To release a new version, tag the commit with `v*.*.*` and push to the remote. The Github action will automatically build and upload the distribution file. Be sure to set a `PYPI_API_TOKEN` environment variable with your PyPI API token to upload to PyPi before tagging a release version.
