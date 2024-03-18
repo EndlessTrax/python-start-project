@@ -1,7 +1,4 @@
 pytest
 pytest-cov
 flit
-pip-tools
-isort
-black
 ruff
