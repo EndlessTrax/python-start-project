@@ -4,7 +4,7 @@ To use this template, click the green button at the top of the GitHib page that'
 
 This template currently uses Python 3.12. But test run on 3.8 and above. It also includes:
 
-- [pip-tools](https://pypi.org/project/pip-tools/) for dependency management.
+- [ruff](https://github.com/astral-sh/ruff) for linting and formatting.
 - [pytest](https://docs.pytest.org/en/6.2.x/) for testing
 - [flit](https://flit.readthedocs.io/en/latest/index.html) for building distribution files.
 - GitHub Actions for continuous integration and deployment.
