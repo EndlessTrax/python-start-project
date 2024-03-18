@@ -7,15 +7,12 @@ name = "hello_world"
 authors = [{name = "Ricky White", email = "ricky@whitelionmedia.com"}]
 readme = "README.md"
 license = {file = "LICENSE"}
-dynamic = ["version", "description"]
+dynamic = ["description"]
 classifiers = ["License :: OSI Approved :: MIT License"]
 requires-python = ">=3.7"
 version = "0.0.1"
-dependencies = [
-    "#TODO"
-]
+dependencies = []
 
 [project.urls]
-Home = "https://endlesstrax.com"
-Documentation = "#TODO"
-Source = "#TODO"
+Home = "https://github.com/EndlessTrax/python-start-project"
+Documentation = "https://github.com/EndlessTrax/python-start-project"
