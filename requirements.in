@@ -4,5 +4,5 @@ flit==3.9.0
 ruff==0.3.7
 
 # Required for Python 3.8, 3.9, and 3.10
-exceptiongroup==1.2.0
+exceptiongroup==1.2.1
 tomli==2.0.1
