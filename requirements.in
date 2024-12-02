@@ -1,6 +1,6 @@
 pytest==8.3.3
 pytest-cov==5.0.0
-flit==3.9.0
+flit==3.10.1
 ruff==0.6.8
 
 # Required for Python 3.8, 3.9, and 3.10
